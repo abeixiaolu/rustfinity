@@ -11,10 +11,15 @@ fn main() {
     write_to_file("Hello, world!", "hello.txt");
 }
 
+/**
+ * Prints "Hello, Function!"
+ */
 fn greet() {
     println!("Hello, Function!")
 }
 
+/// Takes 2 numbers as arguments and returns the sum
+/// of the 2 numbers
 fn add(a: i32, b: i32) {
     let sum = a + b;
     println!("The sum of {} and {} is {}", a, b, sum);
